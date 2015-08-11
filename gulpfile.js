@@ -17,4 +17,15 @@ var config = {
 gulp.task('bower', function() { 
   return bower()
   .pipe(gulp.dest(config.bowerDir)) 
+  .pipe(notify({ 
+    message: 'Bower has been executed.',
+    onLast: true
+  }));
 });
+
+gulp.task('copyBootstrap', ['bower'], function() {
+  return gulp.src(['bc/bootstrap-sass/assets/stylesheets/**/*'])
+  .pipe(gulp.dest('components/sass/'))
+  .pipe(notify({ 'message': 'Files have been copied.', 'onLast': true}))
+});
+

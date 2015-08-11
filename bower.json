@@ -1,0 +1,32 @@
+{
+  "name": "html-bootstrap-sass",
+  "version": "0.0.1",
+  "homepage": "https://github.com/iz5clj/html-bootstrap-sass",
+  "authors": [
+    "Michel Sabatino <ms@auxe.net>"
+  ],
+  "description": "html bootstrap sass workflow with gulp",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "html",
+    "javascript",
+    "bootstrap",
+    "sass",
+    "css"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "bc",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5",
+    "fontawesome": "~4.4.0"
+  }
+}

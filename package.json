@@ -1,0 +1,38 @@
+{
+  "name": "html-bootstrap-sass",
+  "version": "0.0.1",
+  "description": "html bootstrap sass workflow with gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/iz5clj/html-bootstrap-sass.git"
+  },
+  "keywords": [
+    "html",
+    "sass",
+    "bootstrap",
+    "css",
+    "gulp"
+  ],
+  "author": "Michel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iz5clj/html-bootstrap-sass/issues"
+  },
+  "homepage": "https://github.com/iz5clj/html-bootstrap-sass#readme",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-bower": "0.0.10",
+    "gulp-compass": "^2.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-if": "^1.2.5",
+    "gulp-minify-html": "^1.0.4",
+    "gulp-notify": "^2.2.0",
+    "gulp-uglify": "^1.2.0",
+    "gulp-util": "^3.0.6"
+  }
+}

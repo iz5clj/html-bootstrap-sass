@@ -1,0 +1,6 @@
+html-bootstrap-sass.sublime-project
+html-bootstrap-sass.sublime-workspace
+node_modules
+.tmp
+.sass-cache
+builds/**/images/*

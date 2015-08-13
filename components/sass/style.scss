@@ -1,9 +1,10 @@
 // Add custom font
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,700,300);
-$font-family-base: 'Raleway', sans-serif;
 
-// Import bootstrap and fontawesome
+@import "customVariables";
+
 @import "bootstrap";
+@import "bootstrap-compass";
 @import "fontawesome/font-awesome";
 
 // Bootstrap Starter Template Styles

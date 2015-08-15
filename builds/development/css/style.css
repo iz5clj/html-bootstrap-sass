@@ -1718,11 +1718,11 @@ html {
 
 /* line 27, ../../../components/sass/bootstrap/_scaffolding.scss */
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.42857;
   color: #333333;
-  background-color: #5bc0de;
+  background-color: #fff;
 }
 
 /* line 36, ../../../components/sass/bootstrap/_scaffolding.scss */
@@ -1778,7 +1778,7 @@ img {
 .img-thumbnail {
   padding: 4px;
   line-height: 1.42857;
-  background-color: #5bc0de;
+  background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -3521,7 +3521,7 @@ th {
 }
 /* line 62, ../../../components/sass/bootstrap/_tables.scss */
 .table .table {
-  background-color: #5bc0de;
+  background-color: #fff;
 }
 
 /* line 75, ../../../components/sass/bootstrap/_tables.scss */
@@ -5487,7 +5487,7 @@ tbody.collapse.in {
 /* line 96, ../../../components/sass/bootstrap/_navs.scss */
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
   color: #555555;
-  background-color: #5bc0de;
+  background-color: #fff;
   border: 1px solid #ddd;
   border-bottom-color: transparent;
   cursor: default;
@@ -5580,7 +5580,7 @@ tbody.collapse.in {
   .nav-tabs.nav-justified > .active > a:hover,
   .nav-tabs-justified > .active > a:focus,
   .nav-tabs.nav-justified > .active > a:focus {
-    border-bottom-color: #5bc0de;
+    border-bottom-color: #fff;
   }
 }
 
@@ -6619,7 +6619,7 @@ a.badge:hover, a.badge:focus {
   padding: 4px;
   margin-bottom: 22px;
   line-height: 1.42857;
-  background-color: #5bc0de;
+  background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 4px;
   -webkit-transition: border 0.2s ease-in-out;
@@ -7860,7 +7860,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Raleway", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -7998,7 +7998,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
